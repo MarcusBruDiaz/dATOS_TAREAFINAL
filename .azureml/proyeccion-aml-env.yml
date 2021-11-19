@@ -1,0 +1,13 @@
+name: proyeccion-aml-env
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - numpy
+  - pandas
+  - matplotlib  
+  - pip
+  - pip:
+    - openpyxl
+    - datetime
+    - holidays_co
+    - azureml-defaults
